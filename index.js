@@ -12,5 +12,5 @@ function exactMatch(drivers, obj) {
 };
 
 function exactMatchToList (drivers, matchAttribute) {
-  return exactMatch(drivers, matchAttribute).map(driver => {return driver.name;})
+  return exactMatch(drivers, matchAttribute).map(driver => {return driver.name});
 };
